@@ -4,9 +4,13 @@ import './style.css'
 function CardGame() {
     return `
         <article class="card-game">
-            <img src="./images/alura-pixel.png" alt="Logo da alura">
+            <img src="./images/alura-pixel.png" alt="Logo da alura" data-js="card">
         </article>
     `;
 }
 
-export default CardGame;
+function CardGameReverse() {
+    return './images/logo-javascript.png';
+}
+
+export {CardGameReverse,CardGame};
