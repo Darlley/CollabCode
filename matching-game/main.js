@@ -10,5 +10,5 @@ import BoardScore from './src/objects/BoardScore';
 const $root = document.querySelector('#root');
 $root.insertAdjacentHTML("beforeend", `
     ${BoardScore()}
-    ${BoardGame(6)}
+    ${BoardGame(2)}
 `);
